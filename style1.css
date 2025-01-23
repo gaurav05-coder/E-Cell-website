@@ -1,0 +1,105 @@
+/* Basic reset to remove margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+  @media screen {
+    
+  }
+  /* Navbar container */
+  .navbar {
+    background-color: #FFFFFF; /* Dark background color */
+    width: 100vw;            /* Full width */
+    height: 55px;
+    padding: 10px 0;        /* Padding on top and bottom */
+    display: flex;
+    justify-content: right; /* Center the navbar items */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    flex-wrap: wrap;
+  }
+  .square{
+    height: 385px;
+    width: 385px;
+    border-radius: 15px;
+    background: linear-gradient( 135deg,#3300ff, #fa00ff);
+
+  }
+  .img{
+    
+    height: 385px;
+    width: 385px;
+    object-fit: cover;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 15px;
+  }
+  .grid-container {
+    display: grid;                     /* Enable grid layout */
+    grid-template-columns: repeat(3, 100px);  /* 3 columns, each 95px wide */
+    grid-template-rows: repeat(3, 100px);     /* 3 rows, each 95px high */
+    gap: 10px;                          /* Space between grid items */
+    justify-content: center;            /* Center the grid */
+         margin: 11px;
+         border-radius: 15px;
+    background-color: #d9d9d9;                /* Margin around the grid container */
+  }
+  
+  /* Grid items */
+  .grid-item {
+    width: 95px;                        /* Fixed width for each item */
+    height: 95px;                       /* Fixed height for each item */
+    background-color: #00407A;          /* Background color for each item */
+    color: white;                       /* Text color */
+    display: flex;                      /* Center content inside the grid item */
+    justify-content: center;            /* Horizontally center content */
+    align-items: center;                /* Vertically center content */
+    font-size: 24px;                    /* Font size for the text */
+    border-radius: 10px;  
+    margin: 15px;              /* Rounded corners */
+  }
+  
+  div.grid-container{
+    width: 385px;
+  }
+  .content{
+    
+    width: 1203px;
+    height: 385px;
+    margin: 0 auto;
+    margin-top: 49px;
+    display: flex;
+  }
+  /* Navbar list */
+  .navbar-links {
+    list-style: none;        /* Remove bullet points */
+    display: flex;            /* Arrange items in a row */
+    height: 22px;
+    top: 16px;
+    
+  }
+  
+  /* Navbar list items */
+  .navbar-links li {
+    margin-right: px;       /* Space between the links */
+  }
+  
+  /* Navbar links (anchor tags) */
+  .navbar-links a {
+    color: black;  
+   
+    text-decoration: none;    /* Remove underlines */
+    font-size: 18px;          /* Set font size */
+    padding: 10px 20px;       /* Padding around text */
+    display: block;           /* Make the link a block element */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+  }
+  
+  /* Navbar link hover effect */
+  .navbar-links a:hover {
+    
+    text-decoration: underline;
+    text-decoration-color: blue;
+  }
+  
